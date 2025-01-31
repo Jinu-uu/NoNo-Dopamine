@@ -1,2 +1,2 @@
 # NoNo-Dopamine
-Chrome extension - NoNo Dopamine (prevent use youtube short)
+Chrome extension - short free (prevent use youtube short)

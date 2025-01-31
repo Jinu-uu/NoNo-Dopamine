@@ -1,0 +1,25 @@
+{
+  "manifest_version": 3,
+  "name": "Short Free",
+  "version": "1.0",
+  "description": "유튜브 쇼츠 영상을 차단하는 Chrome 확장 프로그램",
+  "permissions": ["tabs", "scripting"],
+  "background": {
+    "service_worker": "background.js"
+  },
+  "host_permissions": [
+    "https://www.youtube.com/shorts/*",
+    "https://m.youtube.com/shorts/*"
+  ],
+  "action": {
+    "default_popup": "popup.html",
+    "default_icon": {
+      "16": "images/short_free_icon128.png",
+      "48": "images/short_free_icon128.png",
+      "128": "images/short_free_icon128.png"
+    }
+  },
+  "icons": {
+    "128": "images/short_free_icon128.png"
+  }
+}
